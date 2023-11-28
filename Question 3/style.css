@@ -1,0 +1,23 @@
+/* Apply Times New Roman font and 24px size to the heading */
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+/* Align field names to the right in the table */
+td.label {
+    text-align: right;
+}
+
+/* Apply light blue background to left-side cells with field names */
+td.label-cell {
+    background-color: lightblue;
+}
+
+/* Set the background image for the top right position */
+body {
+    background-image: url('college-logo.png'); /* Replace 'college-logo.png' with your actual image file */
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100px; /* Adjust the size as needed */
+}

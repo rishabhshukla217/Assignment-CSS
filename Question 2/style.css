@@ -1,0 +1,27 @@
+/* Apply blue background and white text color for the table header */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: blue;
+    color: white;
+}
+
+/* Display day names in bold uppercase */
+th, td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Display lunch in slightly bigger font */
+td.lunch {
+    font-size: 1.1em;
+}

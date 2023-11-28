@@ -1,0 +1,20 @@
+/* Style the image container */
+.image-container {
+    position: relative;
+}
+
+/* Style the images */
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Set z-index to control the stacking order */
+#image1 {
+    z-index: 1;
+}
+
+#image2 {
+    z-index: 2;
+}

@@ -1,0 +1,22 @@
+/* Style the subject list */
+.subject-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style the hyperlinks */
+.subject-list li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* Apply styles on hover */
+.subject-list li a:hover {
+    background-color: #ddd;
+    color: #555;
+}
